@@ -3,14 +3,18 @@
 INLAND MESH BOUNDARY GENERATOR
 ===========================================================================
 Purpose: 
-Generates a continuous, continuous inland boundary line for hydrodynamic/ocean 
-modeling. It calculates the maximum inland extent by combining a 500m 
-coastal buffer with a 20m elevation contour.
+GGenerates a continuous inland boundary line for hydrodynamic mesh. 
+It calculates the maximum inland extent by combining 
+a 500m coastal buffer with a 20m elevation contour.
+
+Instructions:
+This code should run in the Python Console in QGIS. You can find the 
+Python Console in the Plugins menu (Plugins > Python Console).
 
 Prerequisites:
 - Layers must be loaded in the QGIS project.
-- 'PA_BC_500Inland' : Polygon representing land >500m from the coast.
-- 'contour_20m_poly' : Polygon representing land >20m in elevation.
+- 'PA_BC_500Inland' : Polygon representing land =500m from the coast.
+- 'contour_20m_poly' : Polygon representing land =20m in elevation.
 ===========================================================================
 """
 
