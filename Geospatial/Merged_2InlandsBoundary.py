@@ -3,7 +3,7 @@
 INLAND MESH BOUNDARY GENERATOR
 ===========================================================================
 Purpose: 
-GGenerates a continuous inland boundary line for hydrodynamic mesh. 
+Generates a continuous inland boundary line for hydrodynamic mesh. 
 It calculates the maximum inland extent by combining 
 a 500m coastal buffer with a 20m elevation contour.
 
